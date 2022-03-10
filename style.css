@@ -131,3 +131,39 @@ font-size: 1rem;
 color: black;
 display: block;
 }
+
+main section.pres{
+width: 364px;
+height: 117px;
+margin: 2rem;
+}
+
+.press1{
+width: 200px;
+height: 40.46px;
+}
+
+.press1mazas{
+width: 216.12px;
+height: 40.46px;
+}
+
+.press2{
+width: 154px;
+height: 46.19px;
+}
+
+.press3{
+width: 132.72px;
+height: 45.95px;
+}
+
+.press4{
+display: none; 
+}
+
+.press5{
+width: 156.12px;
+height: 40.47px;
+margin-left: 4rem;
+}
