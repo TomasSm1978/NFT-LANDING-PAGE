@@ -339,6 +339,8 @@ row-gap: 1rem;
 padding: 0;
 height: 630px;
 box-sizing: border-box;
+border-top: 2px solid #EEEEEE;
+border-bottom: 2px solid #EEEEEE;
 }
 
 main section div.II-column-left{
@@ -419,6 +421,55 @@ width: 206px;
 height: 467px;
 object-fit: cover;
 object-position: 0px 0px;  
-border: 1px solid black;
 margin-top: 6rem;
+}
+
+footer{
+height: 632px;
+width: 428px;
+background-color: blue;
+box-sizing: border-box;
+padding-left:2rem;
+}
+div.footerleft{
+background-color: rgb(255, 255, 255);
+width: 233px;
+height: 136px;
+margin-bottom: 2rem;
+margin-top: 2rem;
+}
+
+div.footerright{
+background-color: rgb(255, 255, 255);
+width: 260px;
+height: 282px;
+}
+div.footerleft p{
+width: 233px;
+height: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+color: #555555;
+}
+
+footer i{
+color: #555555
+}
+
+
+
+
+
+
+
+footer p.bottomline{
+width: 286px;
+height: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+color: #999999;
 }
