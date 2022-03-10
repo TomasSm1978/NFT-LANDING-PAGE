@@ -39,7 +39,7 @@ main section.like-no-other{
 main section div.column-left{
     grid-area: left;
     height: 410px;
-    padding-left: 1rem;
+    padding-left: 2rem;
     padding-top: 3rem;
     box-sizing: border-box;
 }
@@ -111,7 +111,7 @@ box-sizing: border-box;
 div.div-free-nft{
 width: 364px;
 height: 172px;
-padding: 5rem 0 5rem 1rem;
+padding: 5rem 0 5rem 2rem;
 display: block;
 }
 
@@ -139,13 +139,11 @@ margin: 2rem;
 }
 
 .press1{
-width: 200px;
+width: 132px;
 height: 40.46px;
-}
-
-.press1mazas{
-width: 216.12px;
-height: 40.46px;
+object-fit: cover;
+object-position: 0px 0px; 
+margin-right: 4rem;
 }
 
 .press2{
@@ -166,4 +164,162 @@ display: none;
 width: 156.12px;
 height: 40.47px;
 margin-left: 4rem;
+}
+
+main section.auction{
+width: 1280px;
+height: 642px;
+margin: 2rem;
+box-sizing: border-box;
+}
+
+main section.auction p.auction-top{
+width: 364px;
+height: 96px;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+color: #111111;
+}
+
+main section.auction p.auction-main{
+width: 364px;
+height: 90px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #555555;   
+}
+
+main section.auction p.auction-main a{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #555555;   
+}
+
+main section div.card1{
+width: 290px;
+height: 400px;
+display: inline-block;
+margin-right: 36px;
+box-sizing: border-box;
+border-radius: 1rem;
+background-color: #EEEEEE;
+}
+
+main section div.card2{
+width: 290px;
+height: 400px;
+display: inline-block;
+margin-right: 36px;
+box-sizing: border-box;
+border-radius: 1rem;
+background-color: #EEEEEE;
+}
+
+main section div.card3{
+width: 290px;
+height: 400px;
+display: inline-block;
+margin-right: 36px;
+box-sizing: border-box;
+border-radius: 1rem;
+background-color: #EEEEEE;
+}
+
+main section div.card4{
+width: 290px;
+height: 400px;  
+display: inline-block;
+box-sizing: border-box;
+border-radius: 1rem;
+background-color: #EEEEEE;
+}
+
+.cardleft{
+width: 109px;
+height: 74px;
+display: inline-block;
+margin-top: 1rem;
+margin-left: 2rem;
+}
+
+.cardright{
+width: 120px;
+height: 74px;
+display: inline-block;
+margin-top: 1rem;
+}
+
+.iconprice{
+width: 109px;
+display: inline-block;
+float: right;
+}
+
+.p-left-1{
+color: #FF8139;
+font-size: 12px;  
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+margin: 0%;
+}
+
+.p-left-2{
+width: 109px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+color: #111111;
+margin: 0.8rem 0 0 0;
+}
+
+.p-left-3{
+width: 65px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #777777;
+margin: 0.7rem 0 0 0;
+}
+
+.p-right-1{
+width: 48px;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+color: #777777;
+margin: 0;
+float: right;
+}
+
+.p-right-2{
+width: 89px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+color: #111111;
+margin: 0.7rem 0 0 0;   
+display: inline; 
+float: right;
+}
+
+.p-right-3{
+width: 78px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+float: right;
+color: #777777;
+margin: 0.7rem 0 0 0;
 }
