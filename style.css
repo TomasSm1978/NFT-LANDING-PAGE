@@ -26,16 +26,22 @@ main section.like-no-other{
     width: 100%;
     display: flex;
     padding: 0;
-    height: 400px;
+    height: 3500px;
 }
 
 main section div.column-left{
    flex-grow: 1;
-   height: 400px;
+   height: 300px;
    max-width: 70%;
-   min-width: 50%;
+   min-width: 60%;
    padding-left: 1rem;
+   padding-top: 50px;
+   border: 1px solid #FF3998;
 }
+.left-2{
+    max-width: 280px;
+}
+
  section div p.top{
      color: #FF3998;
      font-size: 0.8rem;
@@ -59,11 +65,13 @@ section div button{
 
 main section figure{
     flex-grow: 1;
-    height: 400px;
+    height: 350px;
     margin: 0;
-
+    border: 1px solid #FF3998;
 }
 
 main section figure img{
-       height: 400px;   
+    height: 350px; 
+    object-fit: cover;
+    object-position: -30px -30px;  
 }
