@@ -246,21 +246,20 @@ background-color: #EEEEEE;
 .cardleft{
 width: 109px;
 height: 74px;
-display: inline-block;
+display: inline;
 margin-top: 1rem;
-margin-left: 2rem;
+margin-left: 1.5rem;
+box-sizing: border-box;
+float: left;
 }
 
 .cardright{
 width: 120px;
 height: 74px;
-display: inline-block;
+display: inline;
 margin-top: 1rem;
-}
-
-.iconprice{
-width: 109px;
-display: inline-block;
+margin-right: 1.2rem;
+box-sizing: border-box;
 float: right;
 }
 
@@ -270,7 +269,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 500;
 line-height: 100%;
-margin: 0%;
+margin: 0;
 }
 
 .p-left-2{
@@ -301,18 +300,18 @@ font-size: 12px;
 line-height: 100%;
 color: #777777;
 margin: 0;
+margin-right: 0.3rem;
 float: right;
 }
 
 .p-right-2{
-width: 89px;
+width: 105px;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 100%;
 color: #111111;
-margin: 0.7rem 0 0 0;   
-display: inline; 
+margin: 0.3rem 0 0 0;  
 float: right;
 }
 
@@ -322,9 +321,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 100%;
-float: right;
 color: #777777;
-margin: 0.7rem 0 0 0;
+margin: 0 0 0 0;
+margin: 0.3rem 0 0 0;
+float: right;
 }
 
 main section.II-like-no-other{
