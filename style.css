@@ -119,7 +119,7 @@ object-position: -20px -30px;
 
 main section.free-nft{
 background: linear-gradient(45deg, #FF3998 10%, #FF8139 70%,#39FFA0);
-height: 326px;
+height: 320px;
 width: 428px;
 padding-top: 2rem;
 margin-top: 2rem;
@@ -153,6 +153,10 @@ color: #111111;
 padding-top: 1rem;
 text-decoration: none;
 display: block;
+}
+
+a.bottomfreenft-big{
+display: none;
 }
 
 main section.pres{
@@ -604,7 +608,6 @@ section div button{
 margin-top: 1rem;
 }
     
-
 main section div.column-right{
 height: 519px;
 }
@@ -612,6 +615,44 @@ height: 519px;
 main section div.column-right img.graphic{
 height: 519px;
 }
+
+main section.free-nft{
+width: 100%;
+height: 320px;
+max-width: 1280px;
+margin: 0 2rem 0 2rem;
+}
+    
+div.div-free-nft{
+width: 620px;
+height: 102px;
+padding-top: 120px;
+}
+
+a.bottomfreenft{
+display: none;
+}
+    
+a.bottomfreenft-big{
+display: initial;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #111111;
+padding-top: 1rem;
+text-decoration: none;
+display: block;
+}
+
+
+
+
+
+
+
+
+
 
 
 
