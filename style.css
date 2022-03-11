@@ -3,17 +3,18 @@ background-color: #ffffff
 }
 
 header {
-width: 90%;
+width: 364px;
+height: 36px;
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
-height: 30px;
-padding: 1rem 1rem 1rem 0rem;
+margin-top: 32px;
 }
 
 header figure img.logo{
-width: 200px;
+width: 198px;
+height: 36px;
 }
 
 header div i{
@@ -28,27 +29,28 @@ display: none;
 main section.like-no-other{
 display: grid;
 grid-template-columns: 274px 1fr 1fr;
-grid-auto-rows: 410px;
+grid-auto-rows: auto;
 grid-template-areas: 
 "left left right";
-width: 100%;
+width: 482.62px;
+height: 448px;
 margin: 0 auto; 
 row-gap: 1rem;
 padding: 0;
-height: 410px;
 box-sizing: border-box;
 }
 
 main section div.column-left{
 grid-area: left;
-height: 410px;
+height: 448px;
+width: 274px;
 padding-left: 2rem;
-padding-top: 3rem;
+padding-top: 2rem;
 box-sizing: border-box;
 }
 
 .left-1{
-width: 169px;
+width: 175px;
 height: 19px;
 }
 
@@ -58,25 +60,34 @@ height: 116px;
 }
 
 .left-3{
-    max-width: 200px;
+width: 274px;
 }
 
 section div p.top{
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.1em;
 color: #FF3998;
 }
 
 section div h1{
+font-style: normal;
 font-weight: 900;
 font-size: 48px;
+line-height: 50px;
+color: #111111;
+margin: 0.8rem 0 0 0;
 }
 
 section div p.inside{
-font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
 color: #555555;
-padding-bottom: 1rem;
+margin: 0 0 1.5rem 0;
 }
 
 section div button{
