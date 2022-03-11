@@ -116,33 +116,38 @@ object-position: -20px -30px;
 main section.free-nft{
 background: linear-gradient(45deg, #FF3998 10%, #FF8139 70%,#39FFA0);
 height: 326px;
+width: 428px;
 padding-top: 2rem;
-margin-top: 5rem;
+margin-top: 2rem;
 text-decoration: none;
 box-sizing: border-box;
 }
 
 div.div-free-nft{
 width: 364px;
-height: 172px;
+height: 180px;
 padding: 5rem 0 5rem 2rem;
 display: block;
 }
 
 a.topfreenft{
 color: black;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
 text-decoration: none;
-font-weight: 300;
-font-size: 48px;
 display: block;
 }
 
 a.bottomfreenft{
-padding-top: 2rem;
-color: black;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #111111;
+padding-top: 1rem;
 text-decoration: none;
-font-size: 1rem;
-color: black;
 display: block;
 }
 
@@ -206,6 +211,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 color: #555555;
+margin: 1rem 0 2rem 0;
 }
 
 main section.auction p.auction-main a{
