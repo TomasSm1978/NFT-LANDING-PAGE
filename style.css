@@ -28,10 +28,10 @@ display: none;
 
 main section.like-no-other{
 display: grid;
-grid-template-columns: 274px 1fr 1fr;
+grid-template-columns: 274px 1fr;
 grid-auto-rows: auto;
 grid-template-areas: 
-"left left right";
+"left right";
 width: 482.62px;
 height: 448px;
 margin: 0 auto; 
@@ -72,7 +72,7 @@ letter-spacing: 0.1em;
 color: #FF3998;
 }
 
-section div h1{
+section div.left-2 h1{
 font-style: normal;
 font-weight: 900;
 font-size: 48px;
@@ -228,6 +228,9 @@ font-weight: 400;
 font-size: 20px;
 line-height: 150%;
 color: #555555;   
+}
+main section.auction p.auction-main-big{
+display: none;
 }
 
 main section div.card1, div.card2, div.card3, div.card4{
@@ -560,11 +563,13 @@ padding-right: 2rem;
 }
 
 main section.like-no-other{
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
 max-width: 1120px;
 width: 100%;
 height: 620px;
 margin: 1rem 2rem 0 2rem; 
+column-gap: 10rem;
+padding-top: 3rem;
 }
     
 main section div.column-left{
@@ -585,7 +590,7 @@ width: 537px;
 height: 60px;
 }
 
-section div h1{
+section div.left-2 h1{
 font-size: 96px;
 line-height: 116px;
 }
@@ -621,6 +626,7 @@ width: 100%;
 height: 320px;
 max-width: 1280px;
 margin: 0 2rem 0 2rem;
+border-radius: 1rem;
 }
     
 div.div-free-nft{
@@ -645,11 +651,62 @@ text-decoration: none;
 display: block;
 }
 
+main section.pres{
+width: 1280px;
+height: 49px;
+display: flex;
+justify-content: space-between;
+margin-top: 4rem;
+margin-bottom: 4rem;
+}
+    
+.press1{
+width: 216.12px;
+height: 40.7px;
+margin-right: 0rem;
+}
+    
+.press2{
+width: 154.8px;
+height: 46.46px;
+}
+    
+.press3{
+width: 132.72px;
+height: 46.21px;
+}
+    
+.press4{
+display: initial; 
+width: 194.76px;
+height: 40.7px;
+}
+    
+.press5{
+width: 156.12px;
+height: 40.7px;
+margin-left: 0rem;
+    }
 
+main section.auction p.auction-top{
+width: 620px;
+height: 48px;
+margin-bottom: 1rem;
+}
 
+main section.auction p.auction-main{
+width: 782px;
+height: 30px;
+display: none;
+}
+        
+main section.auction p.auction-main-big{
+display: initial;
+}
 
-
-
+main section div.card1, div.card2, div.card3, div.card4{
+margin-top: 2rem;
+}
 
 
 
