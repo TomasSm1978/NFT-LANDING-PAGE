@@ -54,15 +54,6 @@ height: 19px;
 width: 175px;
 }
 
-.left-2{
-height: 116px;
-width: 274px;
-}
-
-.left-3{
-width: 274px;
-}
-
 section div p.top{
 color: #FF3998;
 font-size: 16px;
@@ -72,6 +63,11 @@ letter-spacing: 0.1em;
 line-height: 19px;
 }
 
+.left-2{
+height: 116px;
+width: 274px;
+}
+
 section div.left-2 h1{
 color: #111111;
 font-size: 48px;
@@ -79,6 +75,9 @@ font-style: normal;
 font-weight: 900;
 line-height: 50px;
 margin: 0.8rem 0 0 0;
+}
+.left-3{
+width: 274px;
 }
 
 section div p.inside{
@@ -142,7 +141,6 @@ font-style: normal;
 font-weight: 500;
 line-height: 48px;
 text-decoration: none;
-
 }
 
 a.bottomfreenft{
@@ -259,16 +257,6 @@ margin-top: 1rem;
 width: 109px;
 }
 
-.cardright{
-box-sizing: border-box;
-display: inline;
-float: right;
-height: 74px;
-margin-right: 1.2rem;
-margin-top: 1rem;
-width: 120px;
-}
-
 .p-left-1{
 color: #FF8139;
 font-size: 12px;  
@@ -297,6 +285,16 @@ line-height: 100%;
 margin: 0.7rem 0 0 0;
 width: 65px;
 }
+
+.cardright{
+box-sizing: border-box;
+display: inline;
+float: right;
+height: 74px;
+margin-right: 1.2rem;
+margin-top: 1rem;
+width: 120px;
+}   
 
 .p-right-1{
 color: #777777;
@@ -357,6 +355,26 @@ padding-left: 2rem;
 padding-top: 2rem;
 }
 
+section div p.II-top{
+color: #FF3998;
+height: 19px;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 0.1em;
+line-height: 19px;
+width: 651px;
+}
+    
+section div.II-left-2 h1{
+color: #111111;
+height: 204px;
+font-size: 56px;
+font-style: normal;
+font-weight: 900;
+width: 274px;
+}
+
 .II-left-1{
 height: 19px;
 width: 169px;
@@ -371,26 +389,6 @@ width: 274px;
 height: 120px;
 margin-top: 6rem;
 width: 207px;
-}
-
-section div p.II-top{
-color: #FF3998;
-height: 19px;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 0.1em;
-line-height: 19px;
-width: 651px;
-}
-
-section div.II-left-2 h1{
-color: #111111;
-height: 204px;
-font-size: 56px;
-font-style: normal;
-font-weight: 900;
-width: 274px;
 }
 
 section div p.II-inside{
@@ -459,19 +457,6 @@ margin-top: 2rem;
 width: 233px;
 }
 
-div.footerright{
-background-color: rgb(255, 255, 255);
-box-sizing: border-box;
-display: grid;
-grid-auto-rows: auto;
-grid-template-areas: 
-"topleft topright"
-"bottomleft bottomright";
-grid-template-columns: 1fr 1fr;
-height: 282px;
-width: 260px;
-}
-
 div.footerleft p{
 color: #555555;
 height: 20px;
@@ -484,6 +469,19 @@ width: 233px;
 
 footer i{
 color: #555555
+}
+
+div.footerright{
+background-color: rgb(255, 255, 255);
+box-sizing: border-box;
+display: grid;
+grid-auto-rows: auto;
+grid-template-areas: 
+"topleft topright"
+"bottomleft bottomright";
+grid-template-columns: 1fr 1fr;
+height: 282px;
+width: 260px;
 }
 
 div.about{
@@ -531,6 +529,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 100%;
 margin: 0.5rem 0 0 0;
+text-decoration: none;
 }
 
 footer p.bottomline{
@@ -609,14 +608,14 @@ height: 232px;
 width: 620px;
 }
         
-.left-3{
-height: 60px;
-width: 537px;
-}
-
 section div.left-2 h1{
 font-size: 96px;
 line-height: 95px;
+}
+
+.left-3{
+height: 60px;
+width: 537px;
 }
 
 section div p.inside{
@@ -673,7 +672,6 @@ font-weight: 400;
 line-height: 150%;
 padding-top: 1rem;
 text-decoration: none;
-
 }
 
 main section.pres{
@@ -755,33 +753,33 @@ width: 640px;
 height: 19px;
 width: 651px;
 }
-    
-.II-left-2{
-height: 68px;
-margin: 0;
-margin-bottom: 1rem;
-width: 620px;
-}
-    
-.II-left-3{
-height: 60px;
-margin: 0;
-padding: 0;
-width: 537px;
-}
-    
+  
 section div p.II-top{
 height: 19px;
 margin-bottom: 0;
 margin-top: 2.5rem;
 width: 651px;
 }
-    
+
+.II-left-2{
+height: 68px;
+margin: 0;
+margin-bottom: 1rem;
+width: 620px;
+}
+  
 section div.II-left-2 h1{
 height: 68px;
 width: 620px;
 }
-    
+
+.II-left-3{
+height: 60px;
+margin: 0;
+padding: 0;
+width: 537px;
+}
+
 section div p.II-inside{
 display: none;
 }
